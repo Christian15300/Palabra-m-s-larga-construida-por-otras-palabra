@@ -20,8 +20,9 @@ def se_puede_formar(palabra, diccionario):
 
     return False
 diccionario = [
-    "cat", "cats", "catsdogcats", "dog", "dogcatsdog",
-    "hippopotamuses", "rat", "ratcatdogcat"
+    "sol", "nube", "rayo", "arco", "iris", 
+    "arcoiris", "nubesol", "rayosol", 
+    "nubes", "cielo", "rayocielo", "cielonube", "nubesolrayocielo"
 ]
 
 resultado = palabra_mas_larga_construida(diccionario)
